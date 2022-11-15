@@ -10,7 +10,7 @@ void setup()
 
 void loop()                    
 {
-  long total =  cs_4_33.capacitiveSensor(500);
+  long total =  cs_4_33.capacitiveSensor(50);
 
   Serial.println(total);
 
