@@ -1,19 +1,11 @@
 /*
 Running live inference
-
-The main logic here is that have a buffer that pushes out the oldest data and refreshes with new data at a set interval with a timer
-Then, transform this buffer of raw sensor data into a signal (signal meaning a object that EI's methods can use directly...this is done with numpy::signal_from_buffer method)
-After it's transformed, the classifier will be working in the background to perform this logic...
-Edge Impulse provides a background thread library...
-For the class...it may be possible for me to rewrite this to do 
-
-
-Fusing the static_buffer.ino example and the nano_ble33_sense_accelerometer_continuous.ino example
-But I'm going to base it more off of static_buffer but instead re-update this buffer every loop
  */
 
 /* Includes ---------------------------------------------------------------- */
+//CHANGE THIS LIBRARY TO BE THE NAME OF YOUR DOWNLOADED E.I. LIBRARY
 #include <a3173_lecture_test_inferencing.h>
+
 #include <ESP_CapSense.h>
 
 // Capacitive sensor fibers

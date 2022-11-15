@@ -1,15 +1,6 @@
 /*
 https://github.com/edgeimpulse/example-data-collection-csv
-
-This is a 2 part section...oh boy...
-
-First, Python script...
-- 2nd idea is to use Web Serial so there are less issues with installs...
-https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API
-https://blog.spacehuhn.com/serial-terminal
-https://github.com/SpacehuhnTech/serialterminal
-
- */
+*/
 
 #include <ESP_CapSense.h>
 
