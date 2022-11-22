@@ -1,0 +1,1 @@
+This code technically doesn't implement logic to make sure if a gesture is detected, another gesture is not also allowed to be detected. For example, you will notice that you can do left swipe and right double tap almost simultaneously. A quick fix would be to add delays and adding some logic checks on the flags. We'll leave this as an exercise for the reader :)
